@@ -76,12 +76,13 @@ tree to the left of the editor.
 
 `../etc/test`{{open}}
 
-### Files in /root
+### Files in /root when uieditorpath is set
 
 `echo 'myfilein' > /root/myfileinroot`{{execute}}
 
-Root is the default in most cases for "uieditorpath". This would work had we not
-set the "uieditorpath" to `/test/`
+Root is the default in most cases for "uieditorpath". The following opens a new
+empty file in the uieditorpath because we haven't given it a relative path to
+the /root directory from the "uieditorpath" to `/test/`.
 
 `myfileinroot`{{open}}
 
@@ -95,8 +96,10 @@ Paths that can be found relative to the "uieditorpath" will work as expected:
 
 ### Files that don't exist
 
-You can open a file that does not exist. Any directories in its path must exist and be
-given relative to the uieditorpath.
+A common idiom seen in labs is to create files before opening them in the editor
+using the `touch` command, but you can open a file that does not exist. Any
+directories in the file path must exist and be given relative to the
+uieditorpath.
 
 ### Under the uieditorpath
 
