@@ -2,11 +2,11 @@
 
 Generate large number of files to test tree view...
 
-`mkdir -p l1_{1..10}/l2_{1..20}/l3_{1..20}`{{execute}}
+`mkdir -p test/l1_{1..10}/l2_{1..20}/l3_{1..20}`{{execute}}
 
-`mkdir -p l1_{1..20}/l2_{1..20}/l3_{1..20}`{{execute}}
+`mkdir -p test/l1_{1..20}/l2_{1..20}/l3_{1..20}`{{execute}}
 
-`mkdir -p l1_{1..30}/l2_{1..20}/l3_{1..20}`{{execute}}
+`mkdir -p test/l1_{1..30}/l2_{1..20}/l3_{1..20}`{{execute}}
 
 ## Snippets
 The following snippet will replace the contents of the editor:
@@ -35,14 +35,6 @@ The following snippet will prepend the contents of the editor:
 The following snippet will append the contents of the editor:
 
 <pre class="file" data-filename="app.js" data-target="append">console.log("Finishing...")
-</pre>
-
-## HTML Snippets
-
-<pre class="file" data-filename="app.js" data-target="append">
-<pre class="file" data-filename="app.js" data-target="append">
-
-</pre>
 </pre>
 
 ## New Files for Editor
