@@ -1,12 +1,9 @@
 ## Tree View
 
-Generate large number of files to test tree view...
+Generate large number of folders to test tree view...
 
 `mkdir -p /test/l1_{1..10}/l2_{1..20}/l3_{1..20}`{{execute}}
 
-`mkdir -p /test/l1_{1..20}/l2_{1..20}/l3_{1..20}`{{execute}}
-
-`mkdir -p /test/l1_{1..30}/l2_{1..20}/l3_{1..20}`{{execute}}
 
 ## Snippets
 The following snippet will replace the contents of the editor:
