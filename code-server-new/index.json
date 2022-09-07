@@ -29,5 +29,9 @@
     },
     "backend": {
         "imageid": "ubuntu:22.04"
+    },
+    "private": false,
+    "security": {
+        "type": "none"
     }
 }
