@@ -28,7 +28,7 @@
         "uieditorpath": "/test/"
     },
     "backend": {
-        "imageid": "ubuntu:22.04"
+        "imageid": "ubuntu:2004"
     },
     "private": false,
     "security": {
