@@ -1,0 +1,37 @@
+{
+    "title": "Scenario with 4.6.0 code-server in language environment",
+    "description": "Katacoda Scenario Example",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "background": "introBackground.sh",
+            "foreground": "introForeground.sh",
+            "credits": ""
+        },
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md",
+                "background": "step1Background.sh",
+                "foreground": "step1Foreground.sh"
+            }
+        ]
+    },
+    "files": [
+        "app.js", "index.js"
+    ],
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "vscode-terminal-split",
+        "uisettings": "javascript",
+        "uieditorpath": "/test/"
+    },
+    "backend": {
+        "imageid": "golang:1.18"
+    },
+    "private": false,
+    "security": {
+        "type": "none"
+    }
+}
