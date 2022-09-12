@@ -28,7 +28,7 @@
         "uieditorpath": "/test/"
     },
     "backend": {
-        "imageid": "golang:1.18"
+        "imageid": "python:3.8"
     },
     "private": false,
     "security": {
