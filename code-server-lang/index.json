@@ -28,7 +28,7 @@
         "uieditorpath": "/test/"
     },
     "backend": {
-        "imageid": "python:3.8"
+        "imageid": "bash:5.1"
     },
     "private": false,
     "security": {
