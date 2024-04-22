@@ -1,0 +1,36 @@
+{
+    "title": "Lab with O'Reilly Learning Extension",
+    "description": "O'Reilly Extension example",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "background": "introBackground.sh",
+            "credits": ""
+        },
+        "steps": [
+            {
+                "title": "Hello World",
+                "text": "step1.md"
+            }
+        ],
+        "assets": {
+            "host01": [
+                {"file": "oreillylearning-0.8.0.vsix", "target": "/opt/"}
+            ]
+        }
+    },
+    "environment": {
+        "hideintro": true,
+        "hidefinish": true,
+        "uilayout": "vscode-terminal-split",
+        "uisettings": "javascript",
+        "uieditorpath": "/test/"
+    },
+    "backend": {
+        "imageid": "ubuntu2204-base-image-v1:latest"
+    },
+    "private": false,
+    "security": {
+        "type": "none"
+    }
+}
