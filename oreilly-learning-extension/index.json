@@ -22,7 +22,7 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "uilayout": "eb-vscode"
+        "uilayout": "eb-vscode-v1"
     },
     "backend": {
         "imageid": "ubuntu2204-base-image-v1:latest"
