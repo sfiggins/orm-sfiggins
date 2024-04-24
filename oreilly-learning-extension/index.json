@@ -1,11 +1,10 @@
 {
-    "title": "Lab with O'Reilly Learning Extension",
-    "description": "O'Reilly Extension example",
+    "title": "O'Reilly Learning Platform Extension",
+    "description": "O'Reilly Learning Platform VScode extension sandbox",
     "details": {
         "intro": {
             "text": "intro.md",
-            "background": "introBackground.sh",
-            "credits": ""
+            "background": "introBackground.sh"
         },
         "steps": [
             {
@@ -20,7 +19,8 @@
         }
     },
     "environment": {
-        "hideintro": true,
+        "hidesidebar": true,
+        "hideintro": false,
         "hidefinish": true,
         "uilayout": "eb-vscode-v1"
     },
