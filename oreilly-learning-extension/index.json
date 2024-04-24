@@ -9,7 +9,7 @@
         },
         "steps": [
             {
-                "title": "Hello World",
+                "title": "Hello, World!",
                 "text": "step1.md"
             }
         ],
@@ -22,15 +22,9 @@
     "environment": {
         "hideintro": true,
         "hidefinish": true,
-        "uilayout": "vscode-terminal-split",
-        "uisettings": "javascript",
-        "uieditorpath": "/test/"
+        "uilayout": "eb-vscode"
     },
     "backend": {
         "imageid": "ubuntu2204-base-image-v1:latest"
-    },
-    "private": false,
-    "security": {
-        "type": "none"
     }
 }
